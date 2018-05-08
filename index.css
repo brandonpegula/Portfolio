@@ -1,3 +1,12 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    padding: 0;
+    margin-top: 0px;
+}
+
 .container-fluid{
     
 
@@ -7,4 +16,12 @@
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
     background-color: lightgrey;
+    opacity: 0.8;
+}
+
+.pageOne{
+    background-image: url(img/BP2.JPG);
+    background-size: cover;
+    height: 700px;
+    /* margin-top: -5%; */
 }
