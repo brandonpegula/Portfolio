@@ -57,6 +57,13 @@ p {
     padding-top: 5%;
 }
 
+.pageThree{
+    background-image: url(img/BP2.JPG);
+    background-size: cover;
+    height: 700px;
+    padding-top: 5%;
+}
+
 .btnList{
     /* margin-left: 25px; */
 }
