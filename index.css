@@ -19,6 +19,19 @@ h1 {
 p {
     padding: 5%;
 }
+
+.fa-github{
+    color: #6e5494;
+}
+
+.fa-linkedin{
+    color: #0077b5;
+}
+
+.fa-instagram{
+    color: #f56040;
+}
+
 .block-main{
     background-color: rgba(211, 211, 211, 0.73);
     padding: 25px;
@@ -26,12 +39,6 @@ p {
     border-radius: 10px;
     margin: 0 auto;
     margin-bottom: 3%;
-
-}
-
-
-.container-fluid{
-    
 
 }
 
@@ -64,6 +71,13 @@ p {
     padding-top: 5%;
 }
 
+.pageFour{
+    background-image: url(img/BP2.JPG);
+    background-size: cover;
+    height: 700px;
+    padding-top: 5%;
+}
+
 .btnList{
     /* margin-left: 25px; */
 }
@@ -75,6 +89,11 @@ p {
     padding: 15px;
 
 
+}
+
+.btn-default:hover{
+    background-color: black;
+    color: white;
 }
 
 .profile{
