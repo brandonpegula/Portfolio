@@ -16,8 +16,26 @@ h1 {
     
 }
 
+h2 {
+    padding: 1%;
+    margin-top: 0px;
+    font-size: 2.5em;
+    color: black;
+    text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 white,
+    0 -1px lightgrey;
+}
+
 p {
-    padding: 5%;
+    padding: 2%;
+    margin-left: 1%;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
 }
 
 .fa-github{
@@ -30,6 +48,10 @@ p {
 
 .fa-instagram{
     color: #f56040;
+}
+
+.welcome{
+    padding-top: 10%;
 }
 
 .block-main{
@@ -47,7 +69,7 @@ p {
     font-size: 1.5em;
     background-color: lightgrey;
     opacity: 0.8;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
 }
 
 .pageOne{
@@ -71,11 +93,28 @@ p {
     padding-top: 5%;
 }
 
+.portfolio{
+    background-color: rgba(211, 211, 211, 0.73);
+    padding: 1%;
+    width: 18%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
 .pageFour{
     background-image: url(img/BP2.JPG);
     background-size: cover;
     height: 700px;
-    padding-top: 5%;
+    padding-top: 10%;
+}
+
+.contact{
+    background-color: rgba(211, 211, 211, 0.73);
+    padding: 1%;
+    width: 18%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 5%;
 }
 
 .btnList{
