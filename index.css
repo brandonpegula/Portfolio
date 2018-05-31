@@ -38,23 +38,6 @@ p {
     0 -1px black;
 }
 
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: lightgrey;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #4cbb17;
-    background-color: transparent;
-    text-decoration: underline;
-}
 
 .fa-github{
     color: #6e5494;
