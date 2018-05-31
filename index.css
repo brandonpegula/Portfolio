@@ -101,6 +101,10 @@ p {
     margin: 0 auto;
 }
 
+.skills{
+    font-size: 5em;
+}
+
 .pageFour{
     background-image: url(img/BP2.JPG);
     background-size: cover;
