@@ -77,7 +77,6 @@ p {
     background-image: url(img/BP2.JPG);
     background-size: cover;
     height: 700px;
-    /* margin-top: -5%; */
 }
 
 .pageTwo{
@@ -144,6 +143,13 @@ p {
     border-radius: 100%;
     height: 40vh;
     width: 40vh;
+}
+
+.sites {
+    border-radius: 10%;
+    height: 30vh;
+    width: 30vh;
+    padding: 1%;
 }
 
 .footer {
