@@ -74,23 +74,22 @@ p {
 }
 
 .pageOne{
-    background-image: url(img/BP2.JPG);
+    background-image: url(img/BP3.JPG);
     background-size: cover;
     height: 700px;
 }
 
 .pageTwo{
-    background-image: url(img/BP2.JPG);
+    background-image: url(img/BP4.JPG);
     background-size: cover;
     height: 700px;
     padding-top: 5%;
 }
 
 .pageThree{
-    background-image: url(img/BP2.JPG);
-    background-size: cover;
-    height: 700px;
-    padding-top: 5%;
+    background: linear-gradient(to right, #b5cde1, slategrey);
+    height: 100vh;
+    padding-top: 3%;
 }
 
 .portfolio{
@@ -104,6 +103,10 @@ p {
 .skills{
     font-size: 3em;
     padding: 1%;
+    background-color: rgba(211, 211, 211, 0.73);
+    width: 40%;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 .pageFour{
