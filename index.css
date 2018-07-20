@@ -52,22 +52,24 @@ p {
 }
 
 .welcome{
-    padding-top: 10%;
+    padding-top: 10vh;
 }
 
 .block-main{
     background-color: rgba(211, 211, 211, 0.73);
-    padding: 25px;
-    width: 60%;
+    padding: 3vh;
+    width: 80vw;
     border-radius: 10px;
     margin: 0 auto;
-    margin-bottom: 3%;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-size: 1.8vw;
 
 }
 
 .nav-pills{
     font-family: 'Roboto Slab', serif;
-    font-size: 1.5em;
+    font-size: 3vh;
     background-color: lightgrey;
     opacity: 0.8;
     /* margin-bottom: 10%; */
@@ -76,35 +78,46 @@ p {
 .pageOne{
     background-image: url(img/BP3.JPG);
     background-size: cover;
-    height: 700px;
+    height: 100vh;
+    width: 100vw;
+    /* padding-top: 10vh; */
+    padding-bottom: 3vh;
+    font-size: 2vw;
 }
 
 .pageTwo{
     background-image: url(img/BP4.JPG);
     background-size: cover;
-    height: 700px;
-    padding-top: 5%;
+    /* height: 100vh; */
+    width: 100vw;
+    /* padding-top: 10vh */
+    padding: 4vh;
+    font-size: 2vh;
+    
 }
 
 .pageThree{
     background: linear-gradient(to right, #b5cde1, slategrey);
-    height: 100vh;
-    padding-top: 3%;
+    /* height: 100vh; */
+    width: 100vw;
+    padding: 1vh;
+    /* font-size: 2vw; */
 }
 
 .portfolio{
     background-color: rgba(211, 211, 211, 0.73);
-    padding: 1%;
-    width: 18%;
+    /* padding: 6vh; */
+    width: 40vw;
     border-radius: 10px;
     margin: 0 auto;
 }
 
 .skills{
-    font-size: 3em;
-    padding: 1%;
+    /* font-size: 3vh; */
+    padding: 1vh;
     background-color: rgba(211, 211, 211, 0.73);
-    width: 50%;
+    height: 30vh;
+    width: 25vw;
     border-radius: 10px;
     margin: 0 auto;
 }
@@ -112,17 +125,21 @@ p {
 .pageFour{
     background-image: url(img/BP2.JPG);
     background-size: cover;
-    height: 700px;
-    padding-top: 10%;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-size: 2vw;
 }
 
 .contact{
     background-color: rgba(211, 211, 211, 0.73);
-    padding: 1%;
-    width: 40%;
+    padding: 3vh;
+    width: 25vw;
     border-radius: 10px;
     margin: 0 auto;
-    margin-bottom: 5%;
+    margin-bottom: 5vh;
+    font-size: 2vw;
 }
 
 .btnList{
@@ -132,8 +149,8 @@ p {
 .btn-default{
     background-color: lightgrey;
     border-color: black;
-    font-size: 1.5em;
-    padding: 15px;
+    font-size: 3vh;
+    padding: 1vh;
 
 
 }
@@ -145,21 +162,21 @@ p {
 
 .profile{
     border-radius: 100%;
-    height: 40vh;
-    width: 40vh;
+    height: 35vh;
+    /* width: 35vw; */
 }
 
 .sites {
     border-radius: 10%;
     height: 30vh;
     width: 30vh;
-    padding: 1%;
+    padding: 1vh;
 }
 
 .footer {
-    padding: 1%;
+    padding: 1vh;
     margin-top: 0px;
-    font-size: 1em;
+    font-size: 1vh;
     color: black;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 white, 0 -1px lightgrey;
 }
