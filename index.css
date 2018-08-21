@@ -2,8 +2,6 @@ html,
 body {
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
     overflow-x: hidden;
     background-color: grey;
     font-family: 'Roboto Slab',
@@ -103,12 +101,12 @@ p {
 }
 
 label {
-    margin: 0 5vw 0 0;
+    margin: 0 3vw 0 0;
     font-size: 4vh;
     line-height: 10vh;
     display: none;
-    /* width: 10vw; */
-    /* float: right; */
+    width: 10vw;
+    float: right;
 }
 
 #toggle {
