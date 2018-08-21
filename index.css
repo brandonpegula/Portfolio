@@ -67,6 +67,69 @@ p {
 
 }
 
+/* Hamburger */
+.logo {
+    margin-left: 3vw;
+}
+
+.ham {
+    text-align: right;
+    height: 10vh;
+    line-height: 10vh;
+    font-family: 'Roboto Slab',
+    serif;
+    font-size: 3vh;
+    background-color: lightgrey;
+    border-bottom: 1px solid #b5cde1;
+    opacity: 0.8;
+}
+
+.menu {
+    margin: 0 5vw 0 0;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    background-color: lightgrey;
+    margin: 0 3vh;
+    line-height: 10vh;
+}
+
+label {
+    margin: 0 5vw 0 0;
+    font-size: 3vh;
+    line-height: 10vh;
+    display: none;
+    width: 5vw;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+   
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #b5cde1;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+
 .nav-pills{
     font-family: 'Roboto Slab', serif;
     font-size: 3vh;
