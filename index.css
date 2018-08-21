@@ -98,10 +98,10 @@ p {
     margin: 0 1.5vw;
     line-height: 9vh;
 }
-
+/* Controls burger style */
 label {
     margin: 0 3vw 0 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 9vh;
     display: none;
     width: 10vw;
