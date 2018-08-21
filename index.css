@@ -76,11 +76,11 @@ p {
 
 .ham {
     text-align: right;
-    height: 10vh;
-    line-height: 10vh;
+    height: 9vh;
+    line-height: 9vh;
     font-family: 'Roboto Slab',
     serif;
-    font-size: 3vh;
+    font-size: 1.7em;
     background-color: lightgrey;
     border-bottom: 1px solid #b5cde1;
     opacity: 0.8;
@@ -88,6 +88,7 @@ p {
 
 .menu {
     margin: 0 5vw 0 0;
+    
 }
 
 .menu a {
@@ -95,13 +96,13 @@ p {
     text-decoration: none;
     background-color: lightgrey;
     margin: 0 1.5vw;
-    line-height: 10vh;
+    line-height: 9vh;
 }
 
 label {
     margin: 0 3vw 0 0;
-    font-size: 4vh;
-    line-height: 10vh;
+    font-size: 1.5em;
+    line-height: 9vh;
     display: none;
     width: 10vw;
     float: right;
@@ -111,7 +112,7 @@ label {
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     label {
         display: block;
         cursor: pointer;
@@ -124,7 +125,7 @@ label {
     }
     .menu a {
         display: block;
-        border-bottom: 1px solid #b5cde1;
+        border-top: 1px solid #b5cde1;
         margin: 0;
     }
     #toggle:checked + .menu {
@@ -231,7 +232,7 @@ label {
 footer {
     padding: 1vh;
     margin-top: 0px;
-    font-size: 2vh;
+    font-size: 1em;
     color: black; 
 }
 
