@@ -88,6 +88,28 @@ p {
 
 label {
     margin: 0 40px 0 0;
+    font-size: 3vh;
+    line-height: 10vh;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+    }
+    .menu a {
+        display: block;
+        border-bottom: #b5cde1;
+    }
 }
 
 .nav-pills{
