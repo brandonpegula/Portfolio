@@ -204,10 +204,8 @@ label {
 .btn-default{
     background-color: lightgrey;
     border-color: black;
-    font-size: 3vh;
+    font-size: 1.1em;
     padding: 1vh;
-
-
 }
 
 .btn-default:hover{
@@ -223,8 +221,8 @@ label {
 
 .sites {
     border-radius: 10%;
-    height: 25vh;
-    width: 25vh;
+    height: 28vh;
+    width: 28vh;
     padding: 1vh;
     margin-bottom: 5vh;
 }
