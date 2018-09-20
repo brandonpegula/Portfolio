@@ -108,6 +108,7 @@ label {
     float: right;
 }
 
+/* Simple trick to toggle sandwich menu */
 #toggle {
     display: none;
 }
